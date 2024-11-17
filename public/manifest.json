@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Website To Markdown",
+  "version": "1.0.0",
+  "description": "Convert websites to Markdown",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "logo.png",
+      "48": "logo.png",
+      "128": "logo.png"
+    }
+  },
+  "icons": {
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  }
+}
